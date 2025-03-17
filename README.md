@@ -6,7 +6,7 @@ Repositório contendo exercícios e projetos da disciplina **Linguagens Orientad
 
 Este repositório reúne implementações de conceitos fundamentais da **Linguagens Orientadas à Objetos**, abordando tópicos como:
 
-- ☕︎ *Diagrama de Classes*
+- *Diagrama de Classes*
 
 ## ☕︎ Objetivo
 
