@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.1.1">
+  <diagram name="Página-1" id="OCt8lIPb0WpZBW9i1Zav">
+    <mxGraphModel dx="1888" dy="1636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ShzpP89RrhewqQWMpDJm-5" value="RegistroFitness" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="40" width="360" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-6" value="+ nome: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-5" vertex="1">
+          <mxGeometry y="26" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-7" value="+ idade: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-5" vertex="1">
+          <mxGeometry y="52" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-8" value="+ altura: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-5" vertex="1">
+          <mxGeometry y="78" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-9" value="+ peso: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-5" vertex="1">
+          <mxGeometry y="104" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-20" value="verificarIMC: float&lt;div&gt;verificarIdade: boolean&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="170" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-21" value="Uma academia mantém registro de seus alunos armazenando nome, idade, peso e altura. A academia faz um desconto especial para menores de idade, portanto, é necessário saber distinguir entre alunos maiores e menores de idade. Além disso, a academia necessita conhecer o índice de massa corporal (IMC) deles, sendo o IMC = peso/altura^2.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;gradientColor=light-dark(#000000,#99FFFF);" parent="1" vertex="1">
+          <mxGeometry x="-815" y="-50" width="555" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-22" value="ClientesBanco" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-760" y="320" width="370" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-23" value="+ numero: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-22" vertex="1">
+          <mxGeometry y="26" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-24" value="+ nome: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-22" vertex="1">
+          <mxGeometry y="52" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-25" value="+ saldoAtual: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-22" vertex="1">
+          <mxGeometry y="78" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-27" value="&lt;div&gt;depositoAtual(float):void&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-760" y="424" width="370" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-34" value="Departamento" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="580" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-35" value="+ código: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-34" vertex="1">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-36" value="+ nome: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-34" vertex="1">
+          <mxGeometry y="52" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-37" value="+ telefone: float&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ docente:Docentes[]&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-34" vertex="1">
+          <mxGeometry y="78" width="210" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-40" value="Docentes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-450" y="580" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-41" value="+ código: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-40" vertex="1">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-42" value="+ nome: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-40" vertex="1">
+          <mxGeometry y="52" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-43" value="+ função:string&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ disciplinas:Disciplinas[]&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-40" vertex="1">
+          <mxGeometry y="78" width="210" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ShzpP89RrhewqQWMpDJm-42" target="ShzpP89RrhewqQWMpDJm-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-45" value="Disciplinas" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-136" y="580" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-46" value="+ disciplina:boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-45" vertex="1">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-47" value="+ nome: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-45" vertex="1">
+          <mxGeometry y="52" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-48" value="+ período:int&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ShzpP89RrhewqQWMpDJm-45" vertex="1">
+          <mxGeometry y="78" width="210" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ShzpP89RrhewqQWMpDJm-47" target="ShzpP89RrhewqQWMpDJm-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-54" value="acessarEmentaMec: void" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-136" y="690" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-55" value="Um banco mantém contas de clientes armazenando o número da conta, o nome do cliente e o saldo atual da conta. Os clientes podem depositar o quanto quiserem nas contas, mas podem sacar enquanto a conta possuir saldo positivo&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;gradientColor=light-dark(#000000,#99FFFF);" parent="1" vertex="1">
+          <mxGeometry x="-815" y="240" width="555" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="ShzpP89RrhewqQWMpDJm-56" value="A UNESPAR deseja manter informações sobre seus departamentos, docentes e disciplinas.&lt;div&gt;-&amp;gt; Cada departamento possui código, nome, telefone e docentes.&lt;/div&gt;&lt;div&gt;-&amp;gt; Os dados que deverão ser armazenados para cada docente são código, nome, função e disciplinas que mistura atualmente&lt;/div&gt;&lt;div&gt;-&amp;gt; Para cada disciplina. é necessário saber seu nome, se a disciplina é anual ou&amp;nbsp; semestral e o&amp;nbsp; período de início. Também deve ser possível acessar a ementa da disciplina como definida atualmente nas diretrizes curriculares do MEC&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;gradientColor=light-dark(#000000,#99FFFF);" parent="1" vertex="1">
+          <mxGeometry x="-800" y="490" width="970" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
