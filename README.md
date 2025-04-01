@@ -7,6 +7,7 @@ Repositório contendo exercícios e projetos da disciplina **Linguagens Orientad
 Este repositório reúne implementações de conceitos fundamentais da **Linguagens Orientadas à Objetos**, abordando tópicos como:
 
 - *Diagrama de Classes*
+- *Classes e Objetos*
 
 ## ☕︎ Objetivo
 
@@ -16,6 +17,7 @@ Os códigos servem como material de estudo e prática para reforçar os conceito
 
 - Diagrama de Classes;
 - Draw.io;
+- Netbeans;
 
 ## ☕︎ Como Usar 
 
