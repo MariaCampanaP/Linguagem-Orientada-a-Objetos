@@ -16,9 +16,8 @@ Os códigos servem como material de estudo e prática para reforçar os conceito
 
 ## ☕︎ Tecnologias Utilizadas
 
-- Diagrama de Classes;
 - Draw.io;
-- Netbeans;
+- Netbeans.
 
 ## ☕︎ Como Usar 
 
