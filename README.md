@@ -8,7 +8,8 @@ Este repositório reúne implementações de conceitos fundamentais da **Linguag
 
 - *Diagrama de Classes*
 - *Classes e Objetos*
-- *Herança*
+- *Herança e Polimorfismo*
+- *Interfaces e Classes Abstratas*
 
 ## ☕︎ Objetivo
 
