@@ -10,6 +10,7 @@ Este repositório reúne implementações de conceitos fundamentais da **Linguag
 - *Classes e Objetos*
 - *Herança e Polimorfismo*
 - *Interfaces e Classes Abstratas*
+- *Exceções em Java*
 
 ## ☕︎ Objetivo
 
