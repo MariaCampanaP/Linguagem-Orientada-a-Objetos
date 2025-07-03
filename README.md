@@ -11,6 +11,11 @@ Este repositório reúne implementações de conceitos fundamentais da **Linguag
 - *Herança e Polimorfismo*
 - *Interfaces e Classes Abstratas*
 - *Exceções em Java*
+- *Enums e Interfaces Gráficas*
+- *Layouts e Botões*
+- *Múltiplas Telas*
+- *Menus e Arquivos*
+- *Timers*
 
 ## ☕︎ Objetivo
 
