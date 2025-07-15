@@ -1,3 +1,5 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=007F73&reversal=false"/>
+
 # ☕︎ Linguagem Orientada à Objetos
 
 Repositório contendo exercícios e projetos da disciplina **Linguagens Orientadas à Objetos** do segundo ano de **Ciência da Computação** na UNESPAR.
@@ -32,4 +34,7 @@ Os códigos servem como material de estudo e prática para reforçar os conceito
 
 ```bash
 git clone https://github.com/MariaCampanaP/Linguagem-Orientada-a-Objetos.git
+```
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=007F73&reversal=false&section=footer"/>
 
