@@ -18,6 +18,8 @@ Este repositório reúne implementações de conceitos fundamentais da **Linguag
 - *Múltiplas Telas*
 - *Menus e Arquivos*
 - *Timers*
+- *Concorrência*
+- *Concorrência Produtor / Consumidor*
 
 ## ☕︎ Objetivo
 
