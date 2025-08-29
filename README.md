@@ -20,6 +20,8 @@ Este repositório reúne implementações de conceitos fundamentais da **Linguag
 - *Timers*
 - *Concorrência*
 - *Concorrência Produtor / Consumidor*
+- *Padrões de Projeto*
+- *Persistência com JSON*
 
 ## ☕︎ Objetivo
 
