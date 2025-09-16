@@ -22,6 +22,8 @@ Este repositório reúne implementações de conceitos fundamentais da **Linguag
 - *Concorrência Produtor / Consumidor*
 - *Padrões de Projeto*
 - *Persistência com JSON*
+- *Introdução à banco de dados relacionais*
+- *Java Persistence API (JPA)*
 
 ## ☕︎ Objetivo
 
