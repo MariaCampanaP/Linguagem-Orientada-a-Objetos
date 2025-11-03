@@ -26,6 +26,7 @@ Este repositório reúne implementações de conceitos fundamentais da **Linguag
 - *Java Persistence API (JPA)*
 - *Introdução à HTML*
 - *Servlets e JSP*
+- *EL e JSTL*
 
 ## ☕︎ Objetivo
 
