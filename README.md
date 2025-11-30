@@ -27,6 +27,7 @@ Este repositório reúne implementações de conceitos fundamentais da **Linguag
 - *Introdução à HTML*
 - *Servlets e JSP*
 - *EL e JSTL*
+- *JSF*
 
 ## ☕︎ Objetivo
 
