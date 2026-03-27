@@ -2,7 +2,7 @@
 
 # ☕︎ Linguagem Orientada à Objetos
 
-Repositório contendo exercícios e projetos da disciplina **Linguagens Orientadas à Objetos** do segundo ano de **Ciência da Computação** na UNESPAR.
+Repositório contendo exercícios da disciplina **Linguagens Orientadas à Objetos** do segundo ano de **Ciência da Computação** na UNESPAR.
 
 ## ☕︎ Sobre o Repositório
 
